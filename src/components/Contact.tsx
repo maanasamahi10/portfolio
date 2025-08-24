@@ -87,8 +87,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold">Email</h4>
-                      <a href="mailto:manasamahi.work@gmail.com" className="text-purple-400 hover:text-purple-300 transition-colors">
-                        manasamahi.work@gmail.com
+                      <a href="mailto:maanasak08@gmail.com" className="text-purple-400 hover:text-purple-300 transition-colors">
+                        maanasak08@gmail.com
                       </a>
                     </div>
                   </div>
@@ -112,12 +112,12 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold">LinkedIn</h4>
                       <a
-                        href="https://linkedin.com/in/manasa-software-engineer"
+                        href="https://www.linkedin.com/in/manasak08/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-400 hover:text-blue-300 transition-colors"
                       >
-                        linkedin.com/in/manasa-software-engineer
+                        https://www.linkedin.com/in/manasak08/
                       </a>
                     </div>
                   </div>
@@ -128,14 +128,14 @@ const Contact = () => {
                     className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white"
                     onClick={() => {
                       const link = document.createElement('a');
-                      link.href = '/Manasa_Software_Developer.pdf'; // Must be in public/ folder
-                      link.download = 'Manasa_Resume.pdf';
+                      link.href = '/Manasa_Resume.docx'; // Must be in public/ folder
+                      link.download = 'Manasa_Resume.docx';
                       link.target = '_blank';
                       link.rel = 'noopener noreferrer';
                       link.click();
                     }}
                   >
-                    Download Resume (PDF)
+                    Download Resume
                   </Button>
                 </div>
               </CardContent>

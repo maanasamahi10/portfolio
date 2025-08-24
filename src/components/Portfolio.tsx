@@ -6,15 +6,18 @@ import { Badge } from '@/components/ui/badge';
 const Portfolio = () => {
   const projects = [
     {
-      title: "InforReel",
-      subtitle: "Content-Driven Video Commerce Platform",
-      description: "A revolutionary platform that lets users purchase products directly from video reels. Features seamless integration with payment processing and shipping services, deployed on scalable cloud infrastructure.",
-      technologies: ["React", "Node.js", "AWS EC2", "S3", "Docker", "Stripe", "Shippo"],
+      title: "MediConnect",
+      subtitle: "Healthcare Microservices Platform",
+      description: "Designed and developed a scalable healthcare platform using Java 11, Spring Boot, Hibernate, and PostgreSQL, focused on secure clinical and patient data processing. Built and integrated microservices for EMR (Electronic Medical Records) interoperability, enabling seamless data exchange across internal systems and third-party providers.",
+      technologies: ["postgres", "React.js", "Hibernate", "Spring Boot", "Java 11","Microservices"],
       features: [
-        "Stripe for payments/KYC",
-        "Shippo for shipping",
-        "AWS EC2 + S3 + Docker deployment",
-        "Scalable APIs for media, orders, and user management"
+        "Microservices-Based Architecture",
+        "Clinical & Patient Data Processing",
+        "EMR Integration & Interoperability",
+        "Real-Time Updates with React.js",
+        "Optimized Lab Results Retrieval",
+        "Secure Authentication & Authorization",
+        "Scalable Backend Services"
       ],
       status: "Featured Project",
       image: "/lovable-uploads/7206fd95-3053-40cc-8d1a-4a3dabf4129e.png"

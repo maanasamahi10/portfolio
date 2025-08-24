@@ -5,11 +5,11 @@ import { Badge } from '@/components/ui/badge';
 const Experience = () => {
   const experiences = [
     {
-      company: "InforReel Inc",
+      company: "GE HealthCare",
       position: "Software Developer",
-      period: "Apr 2025 – Present",
-      description: "Built an innovative content-commerce platform integrating Stripe and Shippo, deployed on AWS with Docker/Nginx, managing video reels and real-time product interactions.",
-      technologies: ["AWS", "Docker", "Nginx", "Stripe", "Shippo", "React", "Node.js"],
+      period: "Aug 2024 – Present",
+      description: "Designed and developed a scalable healthcare platform using Java 11, Spring Boot, Hibernate, and PostgreSQL, focused on secure clinical and patient data processing. Built and integrated microservices for EMR (Electronic Medical Records) interoperability, enabling seamless data exchange across internal systems and third-party providers.",
+      technologies: ["postgres", "React.js", "Hibernate", "Spring Boot", "Java 11","Microservices"],
       current: true
     },
     {
