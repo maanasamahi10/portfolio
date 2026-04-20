@@ -6,21 +6,29 @@ import { Badge } from '@/components/ui/badge';
 const Portfolio = () => {
   const projects = [
     {
-      title: "MediConnect",
-      subtitle: "Healthcare Microservices Platform",
-      description: "Designed and developed a scalable healthcare platform using Java 11, Spring Boot, Hibernate, and PostgreSQL, focused on secure clinical and patient data processing. Built and integrated microservices for EMR (Electronic Medical Records) interoperability, enabling seamless data exchange across internal systems and third-party providers.",
-      technologies: ["postgres", "React.js", "Hibernate", "Spring Boot", "Java 11","Microservices"],
-      features: [
-        "Microservices-Based Architecture",
-        "Clinical & Patient Data Processing",
-        "EMR Integration & Interoperability",
-        "Real-Time Updates with React.js",
-        "Optimized Lab Results Retrieval",
-        "Secure Authentication & Authorization",
-        "Scalable Backend Services"
-      ],
-      status: "Featured Project",
-      image: "/lovable-uploads/7206fd95-3053-40cc-8d1a-4a3dabf4129e.png"
+  "title": "Distributed Database Stress Testing Framework",
+  "subtitle": "High-Scale Testing & Performance Optimization Platform",
+  "description": "Developed a high-performance stress testing framework using C# and .NET Core to simulate 50K+ concurrent connections on a distributed PostgreSQL cluster. Identified and resolved replication consistency issues under split-brain scenarios, preventing potential data loss. Containerized test environments using Docker and Kubernetes to replicate production-like multi-node setups, enabling accurate performance benchmarking and system validation.",
+  "technologies": [
+    "C#",
+    ".NET Core",
+    "PostgreSQL",
+    "Docker",
+    "Kubernetes",
+    "Distributed Systems",
+    "Performance Testing"
+  ],
+  "features": [
+    "Simulated 50K+ Concurrent Database Connections",
+    "Replication Consistency Testing (Split-Brain Scenarios)",
+    "Containerized Multi-Node Cluster Environment",
+    "P50 / P95 / P99 Latency Monitoring",
+    "Partition Imbalance Detection",
+    "Tail Latency Optimization (40% Improvement)",
+    "Production-Like Environment Simulation"
+  ],
+  "status": "Featured Project",
+  "image": "/lovable-uploads/distributed-db-stress-testing.png"
     },
     {
       title: "Enterprise Onboarding System",
@@ -34,19 +42,6 @@ const Portfolio = () => {
         "Real-time data validation"
       ],
       status: "Enterprise Solution"
-    },
-    {
-      title: "Claims Management System",
-      subtitle: "Harman International - Real-time Processing",
-      description: "Developed a robust claims management system with real-time validation capabilities, achieving a 60% reduction in claim processing time through optimized algorithms.",
-      technologies: ["Java", "Spring", "React", "Oracle", "REST APIs", "JUnit"],
-      features: [
-        "Real-time validation",
-        "60% faster processing",
-        "Automated claim routing",
-        "Comprehensive reporting"
-      ],
-      status: "Production Ready"
     }
   ];
 

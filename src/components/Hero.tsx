@@ -19,7 +19,7 @@ const Hero = () => {
               <div className="w-full h-full rounded-full bg-background flex items-center justify-center overflow-hidden">
                 <img 
                   src="https://i.postimg.cc/05Kdn9gw/Whats-App-Image-2025-06-03-at-11-38-51-PM.jpg"
-                  alt="Manasa K - Full Stack Software Engineer"
+                  alt="MAANASA CHOWDARY KAKUMANI - Full Stack Software Engineer"
                   className="w-44 h-44 rounded-full object-cover"
                 />
               </div>

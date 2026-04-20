@@ -23,7 +23,7 @@ const Contact = () => {
         'service_78i61pf',
         'template_uzu9etr',
         {
-          to_name:'Manasa K',
+          to_name:'MAANASA CHOWDARY KAKUMANI',
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message
@@ -87,8 +87,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold">Email</h4>
-                      <a href="mailto:maanasak08@gmail.com" className="text-purple-400 hover:text-purple-300 transition-colors">
-                        maanasak08@gmail.com
+                      <a href="mailto:maanasamahi10@gmail.com" className="text-purple-400 hover:text-purple-300 transition-colors">
+                        maanasamahi10@gmail.com
                       </a>
                     </div>
                   </div>
@@ -99,8 +99,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold">Phone</h4>
-                      <a href="tel:+19372045361" className="text-blue-400 hover:text-blue-300 transition-colors">
-                        +1 (937) 204-5361
+                      <a href="tel:+1 (380) 666-2521" className="text-blue-400 hover:text-blue-300 transition-colors">
+                        +1 (380) 666-2521
                       </a>
                     </div>
                   </div>
@@ -112,12 +112,12 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold">LinkedIn</h4>
                       <a
-                        href="https://www.linkedin.com/in/manasak08/"
+                        href="https://www.linkedin.com/in/maahi10"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-400 hover:text-blue-300 transition-colors"
                       >
-                        https://www.linkedin.com/in/manasak08/
+                        https://www.linkedin.com/in/maahi10/
                       </a>
                     </div>
                   </div>
@@ -128,8 +128,8 @@ const Contact = () => {
                     className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white"
                     onClick={() => {
                       const link = document.createElement('a');
-                      link.href = '/Manasa_Resume.docx'; // Must be in public/ folder
-                      link.download = 'Manasa_Resume.docx';
+                      link.href = '/Resume_Maanasa_SDE.pdf'; // Must be in public/ folder
+                      link.download = 'Resume_Maanasa_SDE.pdf';
                       link.target = '_blank';
                       link.rel = 'noopener noreferrer';
                       link.click();
