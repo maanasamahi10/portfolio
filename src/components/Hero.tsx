@@ -15,7 +15,7 @@ const Hero = () => {
 
           {/* Profile Image with actual photo */}
           <div className="mb-8">
-            <div className="w-48 h-47 mx-auto rounded-full bg-gradient-to-br from-purple-400 to-purple-600 p-1">
+            {/* <div className="w-48 h-47 mx-auto rounded-full bg-gradient-to-br from-purple-400 to-purple-600 p-1">
               <div className="w-full h-full rounded-full bg-background flex items-center justify-center overflow-hidden">
                 <img 
                   src="/manasaMahi.jpeg"
@@ -23,7 +23,7 @@ const Hero = () => {
                   className="w-48 h-50 rounded-full object-cover"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
