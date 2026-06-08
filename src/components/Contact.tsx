@@ -23,7 +23,7 @@ const Contact = () => {
         'service_78i61pf',
         'template_uzu9etr',
         {
-          to_name:'MAANASA CHOWDARY KAKUMANI',
+          to_name:'MANASA MAHENDRA',
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message
@@ -87,8 +87,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold">Email</h4>
-                      <a href="mailto:maanasamahi10@gmail.com" className="text-purple-400 hover:text-purple-300 transition-colors">
-                        maanasamahi10@gmail.com
+                      <a href="mailto:manasa100799@gmail.com" className="text-purple-400 hover:text-purple-300 transition-colors">
+                        manasa100799@gmail.com
                       </a>
                     </div>
                   </div>
@@ -99,8 +99,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold">Phone</h4>
-                      <a href="tel:+1 (380) 666-2521" className="text-blue-400 hover:text-blue-300 transition-colors">
-                        +1 (380) 666-2521
+                      <a href="tel:+1 (513) 456-1787" className="text-blue-400 hover:text-blue-300 transition-colors">
+                        +1 (513) 456-1787
                       </a>
                     </div>
                   </div>
@@ -117,7 +117,7 @@ const Contact = () => {
                         rel="noopener noreferrer"
                         className="text-blue-400 hover:text-blue-300 transition-colors"
                       >
-                        https://www.linkedin.com/in/maahi10/
+                        https://www.linkedin.com/in/manasa-mahendra-8aa494414
                       </a>
                     </div>
                   </div>

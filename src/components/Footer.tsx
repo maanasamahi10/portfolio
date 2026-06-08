@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center">
           <div className="mb-6">
-            <h3 className="text-2xl font-bold gradient-text mb-2">MAANASA CHOWDARY KAKUMANI</h3>
+            <h3 className="text-2xl font-bold gradient-text mb-2">MANASA MAHENDRA</h3>
             <p className="text-muted-foreground">Full Stack Software Engineer</p>
           </div>
 
@@ -34,7 +34,7 @@ const Footer = () => {
 
           <div className="border-t border-border/50 pt-8">
             <p className="text-muted-foreground text-sm">
-              © 2024 MAANASA CHOWDARY KAKUMANI. All rights reserved. | Building the future, one line of code at a time.
+              © 2024 MANASA MAHENDRA. All rights reserved. | Building the future, one line of code at a time.
             </p>
           </div>
         </div>

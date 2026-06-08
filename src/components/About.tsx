@@ -15,24 +15,28 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <Card className="glass-card">
-              <CardContent className="p-8">
-              <p className="text-lg leading-relaxed text-muted-foreground">
-                I am a results-driven <span className="text-primary font-semibold">Software Development Engineer</span> with 4+ years of experience building scalable distributed systems and microservices on AWS, delivering high-performance solutions in multi-tenant environments.
-              </p>
+  <CardContent className="p-8">
+    <p className="text-lg leading-relaxed text-muted-foreground">
+      I am a results-driven <span className="text-primary font-semibold">Software Development Engineer</span> with 3+ years of experience building scalable distributed systems, cloud-native applications, and microservices architectures. I specialize in designing and developing high-performance backend services using Java, Spring Boot, and AWS, with a strong focus on scalability, reliability, and system performance.
+    </p>
 
-              <p className="text-lg leading-relaxed text-muted-foreground mt-4">
-                I specialize in system design, backend development, and API engineering, with a strong focus on improving reliability and performance. I have successfully increased system uptime to 99.9% and reduced latency by 30% by optimizing architectures, implementing efficient data processing, and leveraging cloud-native technologies.
-              </p>
+    <p className="text-lg leading-relaxed text-muted-foreground mt-4">
+      Throughout my career, I have engineered solutions for high-throughput, multi-tenant environments, successfully improving system uptime to <span className="text-primary font-semibold">99.9%</span> and reducing service latency by <span className="text-primary font-semibold">30%</span>. By leveraging efficient system design, API optimization, cloud-native technologies, and performance tuning techniques, I have delivered robust solutions that enhance both user experience and operational efficiency.
+    </p>
 
-              <p className="text-lg leading-relaxed text-muted-foreground mt-4">
-                My expertise spans the full software development lifecycle, including microservices architecture, cloud platforms, and modern frontend frameworks. I am passionate about solving complex engineering problems and building scalable, resilient systems that drive real business impact.
-              </p>
+    <p className="text-lg leading-relaxed text-muted-foreground mt-4">
+      My expertise spans microservices development, REST API design, cloud infrastructure, database optimization, CI/CD automation, and distributed systems engineering. I have hands-on experience across the entire software development lifecycle, from requirement analysis and architecture design to implementation, deployment, monitoring, and continuous improvement.
+    </p>
 
-              <p className="text-lg leading-relaxed text-muted-foreground mt-4">
-                Currently, I am focused on developing innovative, high-throughput applications that enhance user experience, ensure system reliability, and support large-scale enterprise use cases.
-              </p>
-              </CardContent>
-            </Card>
+    <p className="text-lg leading-relaxed text-muted-foreground mt-4">
+      I enjoy transforming complex business requirements into scalable technical solutions and am passionate about building resilient systems that can efficiently support growing workloads. My interest in cloud technologies, software architecture, and modern engineering practices drives me to continuously learn and adopt innovative approaches to software development.
+    </p>
+
+    <p className="text-lg leading-relaxed text-muted-foreground mt-4">
+      Beyond technical expertise, I thrive in collaborative Agile environments, value clean and maintainable code, and enjoy solving challenging engineering problems that deliver measurable business impact. I am committed to creating reliable, scalable, and high-quality software solutions that contribute to organizational success and customer satisfaction.
+    </p>
+  </CardContent>
+</Card>
           </div>
 
           <div className="space-y-6">
@@ -55,7 +59,7 @@ const About = () => {
                 <h3 className="text-2xl font-bold mb-6 gradient-text">Quick Stats</h3>
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-purple-400">4+</div>
+                    <div className="text-3xl font-bold text-purple-400">3+</div>
                     <div className="text-muted-foreground">Years Experience</div>
                   </div>
                 </div>

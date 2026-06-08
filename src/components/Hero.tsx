@@ -15,12 +15,12 @@ const Hero = () => {
 
           {/* Profile Image with actual photo */}
           <div className="mb-8">
-            <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-purple-400 to-purple-600 p-1">
+            <div className="w-48 h-47 mx-auto rounded-full bg-gradient-to-br from-purple-400 to-purple-600 p-1">
               <div className="w-full h-full rounded-full bg-background flex items-center justify-center overflow-hidden">
                 <img 
-                  src="https://i.postimg.cc/05Kdn9gw/Whats-App-Image-2025-06-03-at-11-38-51-PM.jpg"
-                  alt="MAANASA CHOWDARY KAKUMANI - Full Stack Software Engineer"
-                  className="w-44 h-44 rounded-full object-cover"
+                  src="/manasaMahi.jpeg"
+                  alt="MANASA MAHENDRA - Full Stack Software Engineer"
+                  className="w-48 h-50 rounded-full object-cover"
                 />
               </div>
             </div>

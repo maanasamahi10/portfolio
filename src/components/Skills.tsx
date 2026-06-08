@@ -3,41 +3,85 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const Skills = () => {
   const skillCategories = [
-  {
-    "title": "Languages & Frontend",
-    "skills": ["Java", "Python", "C++", "SQL", "TypeScript", "React", "Angular"],
-    "gradient": "from-red-500 to-orange-500"
-  },
-  {
-    "title": "Backend & APIs",
-    "skills": ["Spring Boot", "REST APIs", "gRPC", "Microservices", "Distributed Systems"],
-    "gradient": "from-blue-500 to-cyan-500"
-  },
-  {
-    "title": "Cloud & Infrastructure",
-    "skills": ["AWS (Lambda, S3, DynamoDB, SNS, SQS)", "Azure", "Docker", "Kubernetes"],
-    "gradient": "from-purple-500 to-violet-500"
-  },
-  {
-    "title": "Databases",
-    "skills": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "SQL Server", "Amazon Aurora"],
-    "gradient": "from-green-500 to-emerald-500"
-  },
-  {
-    "title": "Testing & Quality",
-    "skills": ["JUnit", "Mockito", "Integration Testing", "TDD", "Automated Testing"],
-    "gradient": "from-pink-500 to-rose-500"
-  },
-  {
-    "title": "Core CS",
-    "skills": ["Data Structures & Algorithms", "System Design", "Design Patterns"],
-    "gradient": "from-yellow-500 to-amber-500"
-  },
-  {
-    "title": "Engineering Practices",
-    "skills": ["Fault Tolerance", "Secure Coding", "Code Reviews", "Agile Development"],
-    "gradient": "from-indigo-500 to-blue-500"
-  }
+    {
+      title: "Languages & Frontend",
+      skills: [
+        "Java",
+        "Python",
+        "C++",
+        "SQL",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "ReactJS",
+        "AngularJS"
+      ],
+      gradient: "from-red-500 to-orange-500"
+    },
+    {
+      title: "Backend & APIs",
+      skills: [
+        "Spring Boot",
+        "REST APIs",
+        "gRPC",
+        "Microservices",
+        "Distributed Systems"
+      ],
+      gradient: "from-blue-500 to-cyan-500"
+    },
+    {
+      title: "Cloud & Infrastructure",
+      skills: [
+        "AWS (Lambda, S3, DynamoDB, SNS, SQS)",
+        "Azure",
+        "Docker",
+        "Kubernetes"
+      ],
+      gradient: "from-purple-500 to-violet-500"
+    },
+    {
+      title: "Databases",
+      skills: [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "SQL Server",
+        "Amazon Aurora"
+      ],
+      gradient: "from-green-500 to-emerald-500"
+    },
+    {
+      title: "Testing & Quality",
+      skills: [
+        "JUnit",
+        "Mockito",
+        "Integration Testing",
+        "TDD",
+        "Automated Testing"
+      ],
+      gradient: "from-pink-500 to-rose-500"
+    },
+    {
+      title: "Core CS",
+      skills: [
+        "Data Structures & Algorithms",
+        "System Design",
+        "Object-Oriented Design",
+        "Design Patterns"
+      ],
+      gradient: "from-yellow-500 to-amber-500"
+    },
+    {
+      title: "Engineering Practices",
+      skills: [
+        "Fault Tolerance",
+        "Secure Coding",
+        "Code Reviews",
+        "Agile Development"
+      ],
+      gradient: "from-indigo-500 to-blue-500"
+    }
   ];
 
   return (

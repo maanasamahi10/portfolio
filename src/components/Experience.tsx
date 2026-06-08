@@ -3,74 +3,78 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
 const Experience = () => {
-  const experiences = [
-    {
-  "company": "Microsoft",
-  "position": "Software Engineer",
-  "period": "Aug 2024 – Present",
-  "description": "Architected and led development of 30+ distributed Java-based microservices supporting real-time collaboration and version control for 1M+ daily active users. Designed scalable, high-availability systems enabling seamless co-authoring across globally distributed environments. Developed high-throughput backend services handling 50K+ requests/sec using asynchronous processing, caching strategies, and optimized inter-service communication, reducing synchronization latency by 40%. Implemented conflict resolution and 3-way merge algorithms to support concurrent editing, improving data consistency and collaboration accuracy by 30%. Applied fault-tolerant design patterns (retry, exponential backoff, circuit isolation) and optimized database performance through indexing and query tuning, achieving 99.99% system uptime and improved response times.",
-  "technologies": [
-    "Java",
-    "Spring Boot",
-    "Microservices Architecture",
-    "Hibernate",
-    "PostgreSQL",
-    "REST APIs",
-    "Distributed Systems",
-    "Caching",
-    "Asynchronous Processing",
-    "System Design",
-    "High Availability"
-  ],
-  "current": true
-    },
-    {
-  "company": "DBS Bank",
-  "position": "Software Development Engineer",
-  "period": "Aug 2022 – Sep 2023",
-  "description": "Designed and developed a real-time Speech-to-Text and AI-driven summarization platform by integrating SIP (TCP) and RTP (UDP) pipelines with OpenAI Whisper, reducing manual analysis effort by 60% for live trading communications. Engineered a scalable session management layer using MQTT (Eclipse Paho) and WebSockets, supporting 10K+ concurrent sessions with low-latency and reliable communication. Built and optimized event-driven data pipelines for real-time audio streaming using MQTT and WebSockets, improving processing throughput by 35% and ensuring high data reliability. Implemented a fault-tolerant distributed data layer using Hazelcast (IMap) and resilient microservices patterns, reducing downtime by 40% and accelerating integration time by 50%. Developed Angular-based dashboards and backend REST APIs for 50K+ users, and automated CI/CD pipelines using Jenkins, Maven, SonarQube, and Fortify, improving deployment speed by 50% while ensuring code quality and security compliance.",
-  "technologies": [
-    "Java",
-    "Spring Boot",
-    "Microservices Architecture",
-    "Angular",
-    "MQTT",
-    "WebSockets",
-    "Hazelcast",
-    "REST APIs",
-    "Event-Driven Architecture",
-    "OpenAI Whisper",
-    "Jenkins",
-    "Maven",
-    "SonarQube",
-    "Fortify",
-    "Distributed Systems"
-  ],
-  "current": false
-    },
-   {
-  "company": "DBS Bank India",
-  "position": "Associate Software Engineer",
-  "period": "Jun 2021 – Aug 2022",
-  "description": "Automated a 3-day release cycle by implementing CI/CD pipelines using Jenkins and Docker with blue-green deployment and rollback strategies, reducing deployment time to under 4 hours and enabling zero-downtime releases. Developed a scalable Angular-based banking dashboard serving 500K+ users and handling millions of requests per month, driving API design, schema versioning, and secure authentication/authorization mechanisms while ensuring zero breaking changes over 14 months. Owned production reliability for 6 critical services as Directly Responsible Individual (DRI), creating service dependency maps and performing failure-mode analysis, reducing root cause analysis (RCA) time from days to hours and improving overall system resilience.",
-  "technologies": [
-    "Java",
-    "Spring Boot",
-    "Angular",
-    "REST APIs",
-    "Microservices Architecture",
-    "Jenkins",
-    "Docker",
-    "CI/CD",
-    "Blue-Green Deployment",
-    "System Design",
-    "API Versioning",
-    "Authentication & Authorization",
-    "Production Support"
-  ],
-  "current": false
-}
-  ];
+const experiences = [
+  {
+    company: "JPMorgan Chase & Co.",
+    position: "Software Engineer",
+    period: "Feb 2025 – Present",
+    description:
+      "Engineered Spring Batch pipelines ingesting data from heterogeneous sources including REST APIs, flat files, and Kafka real-time topics, orchestrating end-to-end workflows using AWS Step Functions across hybrid on-premises and AWS environments with 99.99% uptime. Modernized API security by implementing token-based authentication mechanisms and reduced technical debt by 20% through framework upgrades and architectural refactoring of legacy backend modules. Participated in on-call rotations, rapidly diagnosing and resolving production incidents through root cause analysis, contributing to zero SLA breaches while maintaining ownership of critical backend modules. Architected an event-driven architecture platform using Apache Kafka, enabling real-time data flow and state consistency across distributed microservices while scaling message throughput for peak production workloads. Developed high-volume Java Spring Boot microservices integrated with AWS S3 for CBR file processing, ensuring reliable and scalable ingestion of large financial datasets across the Global Banking Platform.",
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "Spring Batch",
+      "Apache Kafka",
+      "AWS",
+      "AWS Step Functions",
+      "AWS S3",
+      "REST APIs",
+      "Microservices",
+      "Event-Driven Architecture",
+      "Distributed Systems",
+      "Token Authentication",
+      "Production Support",
+      "System Design"
+    ],
+    current: true
+  },
+  {
+    company: "Barclays",
+    position: "Software Development Engineer",
+    period: "Aug 2021 – Sep 2023",
+    description:
+      "Developed RESTful microservices using Java 8/11/19 and Spring Boot, leveraging J2EE design patterns such as Singleton and DAO along with Java 8 features including Streams and Lambda expressions to build modular and maintainable backend components supporting high-volume data integration workflows. Implemented OAuth 2.0 token-based authentication across REST APIs to ensure secure service-to-service communication and reduce unauthorized access risks in distributed systems. Architected real-time data ingestion pipelines using Kafka Producer API, Kafka Connect, and Kafka Streams, backed by Oracle SQL, MongoDB, and Redis for relational persistence, document storage, and session caching under high-concurrency workloads. Accelerated release cycles by automating CI/CD pipelines with Jenkins, enforcing test coverage through JUnit and Mockito, and collaborating within Agile development teams through sprint planning, backlog grooming, and iterative stakeholder delivery.",
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "REST APIs",
+      "J2EE",
+      "OAuth 2.0",
+      "Apache Kafka",
+      "Kafka Streams",
+      "Kafka Connect",
+      "Oracle SQL",
+      "MongoDB",
+      "Redis",
+      "Jenkins",
+      "JUnit",
+      "Mockito",
+      "CI/CD",
+      "Agile"
+    ],
+    current: false
+  },
+  {
+    company: "Virtusa",
+    position: "Software Engineer Intern",
+    period: "Jan 2021 – Jul 2021",
+    description:
+      "Built an IT incident automation platform using Python and AWS, integrating machine learning-based failure prediction capabilities to proactively detect performance anomalies, reducing system downtime and improving incident response times. Developed RESTful microservices that seamlessly integrated with existing IT operations tools, enabling real-time system updates and streamlining troubleshooting workflows across distributed infrastructure. Containerized applications using Docker and orchestrated deployments with Kubernetes, improving resource utilization, scalability, and deployment consistency in cloud environments. Automated CI/CD pipelines, reducing deployment times by 30% and enhancing overall development efficiency.",
+    technologies: [
+      "Python",
+      "AWS",
+      "Machine Learning",
+      "REST APIs",
+      "Microservices",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Cloud Computing",
+      "Automation"
+    ],
+    current: false
+  }
+];
 
   return (
     <section id="experience" className="section-padding bg-gradient-to-b from-card/50 to-background">

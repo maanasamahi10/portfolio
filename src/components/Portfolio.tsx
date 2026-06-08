@@ -5,44 +5,81 @@ import { Badge } from '@/components/ui/badge';
 
 const Portfolio = () => {
   const projects = [
-    {
-  "title": "Distributed Database Stress Testing Framework",
-  "subtitle": "High-Scale Testing & Performance Optimization Platform",
-  "description": "Developed a high-performance stress testing framework using C# and .NET Core to simulate 50K+ concurrent connections on a distributed PostgreSQL cluster. Identified and resolved replication consistency issues under split-brain scenarios, preventing potential data loss. Containerized test environments using Docker and Kubernetes to replicate production-like multi-node setups, enabling accurate performance benchmarking and system validation.",
-  "technologies": [
-    "C#",
-    ".NET Core",
-    "PostgreSQL",
-    "Docker",
-    "Kubernetes",
-    "Distributed Systems",
-    "Performance Testing"
-  ],
-  "features": [
-    "Simulated 50K+ Concurrent Database Connections",
-    "Replication Consistency Testing (Split-Brain Scenarios)",
-    "Containerized Multi-Node Cluster Environment",
-    "P50 / P95 / P99 Latency Monitoring",
-    "Partition Imbalance Detection",
-    "Tail Latency Optimization (40% Improvement)",
-    "Production-Like Environment Simulation"
-  ],
-  "status": "Featured Project",
-  "image": "/lovable-uploads/distributed-db-stress-testing.png"
-    },
-    {
-      title: "Enterprise Onboarding System",
-      subtitle: "DBS Bank - Microservices Architecture",
-      description: "Architected a comprehensive onboarding system using microservices that reduced enterprise onboarding time by 70% through automated workflows and real-time processing.",
-      technologies: ["Java", "Spring Boot", "Angular", "Microservices", "MySQL", "Docker"],
-      features: [
-        "Microservices architecture",
-        "70% reduction in onboarding time",
-        "Automated workflow processing",
-        "Real-time data validation"
-      ],
-      status: "Enterprise Solution"
-    }
+   {
+title: "Enterprise RAG AI Agent",
+subtitle: "LLM-Powered Knowledge Retrieval Platform",
+description: "Built a production-grade Retrieval-Augmented Generation (RAG) platform using Python, FastAPI, PostgreSQL, and pgvector to enable intelligent enterprise knowledge search and question answering. Implemented semantic search pipelines, vector embeddings, and LLM agent orchestration to provide context-aware responses across large knowledge repositories. Designed auditable token tracking and cost management capabilities to optimize LLM usage while maintaining enterprise-grade observability and performance.",
+technologies: [
+"Python",
+"FastAPI",
+"PostgreSQL",
+"pgvector",
+"RAG",
+"LLM Agents",
+"OpenAI",
+"Vector Search"
+],
+features: [
+"Semantic Search Across 50K+ Documents",
+"150ms Average Retrieval Latency",
+"Enterprise Knowledge Assistant",
+"Vector Embedding Storage",
+"Token Usage Tracking & Auditing",
+"30% Reduction in LLM Costs",
+"Multi-User Access Management"
+],
+status: "AI/ML Project"
+},
+{
+title: "Real-Time Fraud Detection Platform",
+subtitle: "Event-Driven Banking Risk Monitoring System",
+description: "Designed and developed a real-time fraud detection platform capable of analyzing banking transactions at scale using event-driven architecture. Leveraged Apache Kafka for transaction streaming, Spring Boot microservices for fraud evaluation, and Redis for low-latency rule execution. The platform identified suspicious transactions within milliseconds while supporting high transaction volumes and regulatory compliance requirements.",
+technologies: [
+"Java",
+"Spring Boot",
+"Apache Kafka",
+"Redis",
+"PostgreSQL",
+"Microservices",
+"Docker",
+"AWS"
+],
+features: [
+"Real-Time Fraud Detection",
+"Kafka-Based Event Streaming",
+"Rule Engine for Risk Scoring",
+"Sub-Second Transaction Analysis",
+"Distributed Microservices Architecture",
+"Audit Logging & Compliance Tracking",
+"High Availability Processing"
+],
+status: "Banking Solution"
+},
+{
+title: "Digital Loan Processing Platform",
+subtitle: "End-to-End Enterprise Lending Workflow",
+description: "Architected a scalable digital loan origination platform enabling customers to apply, verify, and track loan applications online. Developed secure REST APIs, automated approval workflows, document verification services, and notification systems. Reduced loan processing turnaround time through workflow automation and real-time integration with internal banking systems.",
+technologies: [
+"Java",
+"Spring Boot",
+"Angular",
+"MySQL",
+"REST APIs",
+"AWS",
+"Docker",
+"Jenkins"
+],
+features: [
+"Digital Loan Application Workflow",
+"Automated Approval Process",
+"Document Verification Pipeline",
+"Role-Based Access Control",
+"Real-Time Application Tracking",
+"CI/CD Deployment Pipeline",
+"Secure Banking Integrations"
+],
+status: "Enterprise Banking Solution"
+}
   ];
 
   return (
